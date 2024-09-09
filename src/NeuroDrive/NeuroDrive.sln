@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroDrive.App", "NeuroDrive.App\NeuroDrive.App.csproj", "{8DCDC72E-45B4-4D33-AA65-B13992124258}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroDrive.UI", "NeuroDrive.UI\NeuroDrive.UI.csproj", "{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DCDC72E-45B4-4D33-AA65-B13992124258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DCDC72E-45B4-4D33-AA65-B13992124258}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DCDC72E-45B4-4D33-AA65-B13992124258}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DCDC72E-45B4-4D33-AA65-B13992124258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A5126D1F-D5FD-43A6-AA85-4BABB760E0E8}
+		SolutionGuid = {65E79F97-4E46-40EC-899D-DA847C8E4063}
 	EndGlobalSection
 EndGlobal

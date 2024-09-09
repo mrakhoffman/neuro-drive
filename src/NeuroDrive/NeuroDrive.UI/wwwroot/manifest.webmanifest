@@ -1,6 +1,6 @@
 {
-  "name": "NeuroDrive.App",
-  "short_name": "NeuroDrive.App",
+  "name": "NeuroDrive.UI",
+  "short_name": "NeuroDrive.UI",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
