@@ -5,6 +5,12 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeuroDrive.UI", "NeuroDrive.UI\NeuroDrive.UI.csproj", "{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroDrive.Domain", "NeuroDrive.Domain\NeuroDrive.Domain.csproj", "{50EAF95B-D490-4152-8389-83541858DB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroDrive.Application", "NeuroDrive.Application\NeuroDrive.Application.csproj", "{0441D91E-AB72-4C90-BA2D-1D601923383B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroDrive.Infrastructure", "NeuroDrive.Infrastructure\NeuroDrive.Infrastructure.csproj", "{7B3C0D83-727E-4D70-B5B8-EF3C2AB52532}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4D11F6-858C-4C3F-81D1-F8C8C6B5E1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EAF95B-D490-4152-8389-83541858DB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EAF95B-D490-4152-8389-83541858DB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EAF95B-D490-4152-8389-83541858DB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EAF95B-D490-4152-8389-83541858DB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0441D91E-AB72-4C90-BA2D-1D601923383B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0441D91E-AB72-4C90-BA2D-1D601923383B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0441D91E-AB72-4C90-BA2D-1D601923383B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0441D91E-AB72-4C90-BA2D-1D601923383B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3C0D83-727E-4D70-B5B8-EF3C2AB52532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3C0D83-727E-4D70-B5B8-EF3C2AB52532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3C0D83-727E-4D70-B5B8-EF3C2AB52532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3C0D83-727E-4D70-B5B8-EF3C2AB52532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

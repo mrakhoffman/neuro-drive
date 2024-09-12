@@ -1,0 +1,29 @@
+﻿@page "/map"
+@using NeuroDrive.Domain.Enums
+@inject NeuroDrive.Application.Interfaces.IMapService MapService
+
+<div class="map-page-container">
+    <div class="map-container">
+        @if (mapCells is not null)
+        {
+            foreach (var cell in mapCells)
+            {
+                <div class="@cell.CssClass"></div>
+            }
+        }
+        else
+        {
+            <p>Loading map...</p>
+        }
+    </div>
+</div>
+
+@code {
+    private IEnumerable<NeuroDrive.UI.ViewModels.MapCellViewModel>? mapCells;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var map = await MapService.GetMapAsync();
+        mapCells = NeuroDrive.UI.Mappers.MapMapper.ToViewModels(map);
+    }
+}
