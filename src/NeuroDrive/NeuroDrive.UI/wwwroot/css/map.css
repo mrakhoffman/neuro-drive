@@ -1,15 +1,24 @@
-﻿.container {
-    height: 50vh;
-    width: 50vw;
+﻿.map-page-container {
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.map-container {
+    grid-area: 2 / 3 / 1 / 2;
+    aspect-ratio: 1 / 1;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
-    padding: 0;
 }
 
 .road {
