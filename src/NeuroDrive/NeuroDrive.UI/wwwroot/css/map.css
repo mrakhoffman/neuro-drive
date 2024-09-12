@@ -1,0 +1,21 @@
+﻿.container {
+    height: 50vh;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.road {
+    background: #787271;
+}
+
+.off-road {
+    background: #30ca32;
+}
